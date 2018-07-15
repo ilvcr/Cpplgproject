@@ -1,9 +1,9 @@
 /*************************************************************************
-	> File Name: binary_search_tree.cpp
-	> Author: yoghourt->ilvcr 
-	> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
-	> Created Time: 2018年07月15日 星期日 14时50分43秒
-    > Description:   binary search tree
+> File Name: binary_search_tree.cpp
+> Author: yoghourt->ilvcr 
+> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
+> Created Time: 2018年07月15日 星期日 14时50分43秒
+> Description:   binary search tree
  ************************************************************************/
 
 #include<iostream>

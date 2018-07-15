@@ -1,9 +1,9 @@
 /*************************************************************************
-	> File Name: buzz_number.cpp
-	> Author: yoghourt->ilvcr 
-	> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
-	> Created Time: 2018年07月15日 星期日 15时38分16秒
-    > Description:   A buzz number is a number that is either divisble by 7 or has last digit as 7.
+> File Name: buzz_number.cpp
+> Author: yoghourt->ilvcr 
+> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
+> Created Time: 2018年07月15日 星期日 15时38分16秒
+> Description:   A buzz number is a number that is either divisble by 7 or has last digit as 7.
  ************************************************************************/
 
 #include<iostream>

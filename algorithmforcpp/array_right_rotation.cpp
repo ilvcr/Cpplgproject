@@ -1,9 +1,9 @@
 /*************************************************************************
-	> File Name: array_right_rotation.cpp
-	> Author: yoghourt->ilvcr 
-	> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
-	> Created Time: 2018年07月15日 星期日 14时40分17秒
-    > Description: array right rotation  ->  数组右旋     (实现)
+> File Name: array_right_rotation.cpp
+> Author: yoghourt->ilvcr 
+> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
+> Created Time: 2018年07月15日 星期日 14时40分17秒
+> Description: array right rotation  ->  数组右旋     (实现)
  ************************************************************************/
 
 #include<iostream>

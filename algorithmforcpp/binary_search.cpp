@@ -1,9 +1,9 @@
 /*************************************************************************
-	> File Name: binary_search.cpp
-	> Author: yoghourt->ilvcr 
-	> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
-	> Created Time: 2018年07月15日 星期日 15时30分20秒
-    > Description: binary search
+> File Name: binary_search.cpp
+> Author: yoghourt->ilvcr 
+> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
+> Created Time: 2018年07月15日 星期日 15时30分20秒
+> Description: binary search
  ************************************************************************/
 
 #include<iostream>

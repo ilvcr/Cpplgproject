@@ -1,9 +1,9 @@
 /*************************************************************************
-	> File Name: circular_linked_list.cpp
-	> Author: yoghourt->ilvcr 
-	> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
-	> Created Time: 2018年07月15日 星期日 15时41分59秒
-    > Description:   circular linked list  循环链表
+> File Name: circular_linked_list.cpp
+> Author: yoghourt->ilvcr 
+> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
+> Created Time: 2018年07月15日 星期日 15时41分59秒
+> Description:   circular linked list  循环链表
  ************************************************************************/
 
 #include<iostream>
