@@ -1,9 +1,9 @@
 /*************************************************************************
-	> File Name: test_02.cpp
-	> Author: yoghourt->ilvcr 
-	> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
-	> Created Time: 2018年07月15日 星期日 10时41分23秒
-    > Description: 
+> File Name: test_02.cpp
+> Author: yoghourt->ilvcr 
+> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
+> Created Time: 2018年07月15日 星期日 10时41分23秒
+> Description: 
  ************************************************************************/
 
 #include<iostream>

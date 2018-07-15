@@ -1,9 +1,9 @@
 /*************************************************************************
-	> File Name: test_04.cpp
-	> Author: yoghourt->ilvcr 
-	> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
-	> Created Time: 2018年07月15日 星期日 21时57分50秒
-    > Description:   成员函数可直接访问它所属的类的成员，无需使用点或者肩头成员访问操作符
+> File Name: test_04.cpp
+> Author: yoghourt->ilvcr 
+> Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
+> Created Time: 2018年07月15日 星期日 21时57分50秒
+> Description:   成员函数可直接访问它所属的类的成员，无需使用点或者肩头成员访问操作符
  ************************************************************************/
 
 #include<iostream>
