@@ -1,5 +1,5 @@
 /*************************************************************************
-> File Name: Intersection_of_2_arrays.cpp
+> File Name: intersection_of_2_arrays.cpp
 > Author: yoghourt->ilvcr 
 > Mail: liyaoliu@foxmail.com  @@  ilvcr@outlook.com 
 > Created Time: 2018年07月16日 星期一 14时49分41秒
