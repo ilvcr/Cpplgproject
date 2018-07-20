@@ -80,7 +80,7 @@ void Pre(node* n){
 void In(node* n){
     if (n!=NULL){
         In(n->left);
-        cout<<n->val<<"  ";
+        cout << n->val << "  ";
         In(n->right);
     }
 }
@@ -89,7 +89,7 @@ void Post(node *n){
     if (n!=NULL){
         Post(n->left);
         Post(n->right);
-        cout<<n->val<<"  ";
+        cout << n->val << "  ";
     }
 }
 
@@ -100,30 +100,30 @@ int main(int argc, char*argv[]){
     int value;
     int ch;
     node *root=new node;
-    cout<<"\nEnter the value of root node :";
-    cin>>value;
+    cout << "\nEnter the value of root node :";
+    cin >> value;
     root->val=value;
     root->left=NULL;
     root->right=NULL;
 
     do{
-        cout<<"\n1. Insert : ";
-        cout<<"\n2. Breadth First";
-        cout<<"\n3. Preorder Depth First";
-        cout<<"\n4. Inorder Depth First";
-        cout<<"\n5. Postorder Depth First";
+        cout << "\n1. Insert : ";
+        cout << "\n2. Breadth First";
+        cout << "\n3. Preorder Depth First";
+        cout << "\n4. Inorder Depth First";
+        cout << "\n5. Postorder Depth First";
 
-        cout<<"\nEnter Your Choice : ";
-        cin>>ch;
+        cout << "\nEnter Your Choice : ";
+        cin >> ch;
 
         switch(ch){
             case 1:
                 int x;
                 char pos;
-                cout<<"\nEnter the value to be Inserted : ";
-                cin>>x;
-                cout<<"\nLeft or Right of Root : ";
-                cin>>pos;
+                cout << "\nEnter the value to be Inserted : ";
+                cin >> x;
+                cout << "\nLeft or Right of Root : ";
+                cin >> pos;
                 if(pos=='l'){
                     CreateTree(root, root->left, x, pos);
                 }                                        

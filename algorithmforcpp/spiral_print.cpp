@@ -38,7 +38,7 @@ void sprialPrint(int a[][10], int r, int c){
 
         //Print the end col
         for(int i=startRow;i<=endRow;i++,cnt++){
-            cout<<a[i][endCol]<<" ";
+            cout << a[i][endCol] << " ";
         }
         endCol--;
 

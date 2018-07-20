@@ -45,15 +45,15 @@ void show(){
 int main(int argc, char* argv[]){
     int ch, x;
     do{
-        cout<<"\n1. Enque";
-        cout<<"\n2. Deque";
-        cout<<"\n3. Print";
-        cout<<"\nEnter Your Choice : ";
-        cin>>ch;
+        cout << "\n1. Enque";
+        cout << "\n2. Deque";
+        cout << "\n3. Print";
+        cout << "\nEnter Your Choice : ";
+        cin >> ch;
 
         if (ch==1){
-            cout<<"\nInsert : ";
-            cin>>x;
+            cout << "\nInsert : ";
+            cin >> x;
             Enque(x);
         }
         else if (ch==2){

@@ -39,7 +39,7 @@ int main(int argc, char* argv[]){
 
     int index = LinearSearch(array, size, key);
     if(index != -1){
-        cout<<"\nNumber found at index : "<<index;
+        cout << "\nNumber found at index : " << index;
     }
     else{
         cout << "\nNot Found";

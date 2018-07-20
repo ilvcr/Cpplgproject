@@ -28,7 +28,7 @@ void show(){
 
     cout << "\n\tT : ";
     for(int i=0; i<T.top; i++){
-        cout<<T.values[i]<<"\t";
+        cout << T.values[i] <<"\t";
     }
 }
 
