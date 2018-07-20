@@ -74,29 +74,29 @@ int main(int argc, char* argv[]){
     int choice, x;
 
     do{
-        cout<<"\n1. Insert";
-        cout<<"\n2. Delete";
-        cout<<"\n3. Search";
-        cout<<"\n4. Print";
+        cout << "\n1. Insert";
+        cout << "\n2. Delete";
+        cout << "\n3. Search";
+        cout << "\n4. Print";
         
-        cout<<"\n\nEnter you choice : ";
-        cin>>choice; 
+        cout << "\n\nEnter you choice : ";
+        cin >> choice; 
         switch (choice){
             case 1 :    
-                cout<<"\nEnter the element to be inserted : ";
-                cin>>x;
+                cout << "\nEnter the element to be inserted : ";
+                cin >> x;
                 insert(x);
                 break;
             
             case 2 :    
-                cout<<"\nEnter the element to be removed : ";
-                cin>>x;
+                cout << "\nEnter the element to be removed : ";
+                cin >> x;
                 remove(x);  
                 break;
             
             case 3 :    
-                cout<<"\nEnter the element to be searched : ";
-                cin>>x;
+                cout << "\nEnter the element to be searched : ";
+                cin >> x;
                 search(x);  
                 break;
             

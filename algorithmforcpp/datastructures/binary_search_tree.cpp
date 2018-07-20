@@ -157,27 +157,27 @@ int main(int argc, char* argv[]){
     root->right = NULL;
 
     do{
-        cout<<"\n1. Insert";
-        cout<<"\n2. Delete";
-        cout<<"\n3. Breadth First";
-        cout<<"\n4. Preorder Depth First";
-        cout<<"\n5. Inorder Depth First";
-        cout<<"\n6. Postorder Depth First";
+        cout << "\n1. Insert";
+        cout << "\n2. Delete";
+        cout << "\n3. Breadth First";
+        cout << "\n4. Preorder Depth First";
+        cout << "\n5. Inorder Depth First";
+        cout << "\n6. Postorder Depth First";
 
-        cout<<"\nEnter Your Choice : ";
-        cin>>ch;
+        cout << "\nEnter Your Choice : ";
+        cin >> ch;
         int x;
 
         switch(ch){
             case 1:
-                cout<<"\nEnter the value to be Inserted : ";
-                cin>>x;
+                cout << "\nEnter the value to be Inserted : ";
+                cin >> x;
                 Insert(root, x);
                 break;
 
             case 2:
-                cout<<"\nEnter the value to be Deleted : ";
-                cin>>x;
+                cout << "\nEnter the value to be Deleted : ";
+                cin >> x;
                 Remove(root, root, x);
                 break;
 

@@ -45,16 +45,16 @@ void topmost(){
 int main(int argc, char* argv[]){
     int ch, x;
     do{
-        cout<<"\n1. Push";
-        cout<<"\n2. Pop";
-        cout<<"\n3. Print";
-        cout<<"\n4. Print topmost element:";
+        cout << "\n1. Push";
+        cout << "\n2. Pop";
+        cout << "\n3. Print";
+        cout << "\n4. Print topmost element:";
         
-        cout<<"\nEnter Your Choice : ";
-        cin>>ch;
+        cout << "\nEnter Your Choice : ";
+        cin >> ch;
         if (ch==1){
-            cout<<"\nInsert : ";
-            cin>>x;
+            cout << "\nInsert : ";
+            cin >> x;
             push(x);
         }
         else if (ch==2){               

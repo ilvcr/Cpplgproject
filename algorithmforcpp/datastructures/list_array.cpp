@@ -135,31 +135,31 @@ int main(int argc, cahr* argv[]){
     int x;
 
     do{
-        cout<<"\n1.Insert";       
-        cout<<"\n2.Delete";
-        cout<<"\n3.Search";
-        cout<<"\n4.Sort";
-        cout<<"\n5.Print";
+        cout << "\n1.Insert";       
+        cout << "\n2.Delete";
+        cout << "\n3.Search";
+        cout << "\n4.Sort";
+        cout << "\n5.Print";
         
-        cout<<"\n\nEnter Your Choice : ";
-        cin>>choice;
+        cout << "\n\nEnter Your Choice : ";
+        cin >> choice;
         
         switch (choice){
             case 1: 
-                cout<<"\nEnter the element to be inserted : ";
-                cin>>x;
+                cout << "\nEnter the element to be inserted : ";
+                cin >> x;
                 L.insert(x);
                 break;
             
             case 2: 
-                cout<<"\nEnter the element to be removed : ";
-                cin>>x;
+                cout << "\nEnter the element to be removed : ";
+                cin >> x;
                 L.Remove(x);
                 break;
             
             case 3: 
-                cout<<"\nEnter the element to be searched : ";
-                cin>>x;
+                cout << "\nEnter the element to be searched : ";
+                cin >> x;
                 L.Search(x);
                 break;
             

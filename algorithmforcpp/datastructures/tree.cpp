@@ -106,24 +106,24 @@ int main(int argc, char* argv[]){
     root->left = NULL;
     root->right = NULL;
     do{
-        cout<<"\n1. Insert : ";
-        cout<<"\n2. Breadth First";
-        cout<<"\n3. Preorder Depth First";
-        cout<<"\n4. Inorder Depth First";
-        cout<<"\n5. Postorder Depth First";
+        cout << "\n1. Insert : ";
+        cout << "\n2. Breadth First";
+        cout << "\n3. Preorder Depth First";
+        cout << "\n4. Inorder Depth First";
+        cout << "\n5. Postorder Depth First";
 
         
-        cout<<"\nEnter Your Choice : ";
-        cin>>ch;
+        cout << "\nEnter Your Choice : ";
+        cin >> ch;
 
         switch(ch){
             case 1:
                 int x;
                 char pos;
-                cout<<"\nEnter the value to be Inserted : ";
-                cin>>x;
-                cout<<"\nLeft or Right of Root : ";
-                cin>>pos;
+                cout << "\nEnter the value to be Inserted : ";
+                cin >> x;
+                cout << "\nLeft or Right of Root : ";
+                cin >> pos;
                 if(pos=='l'){
                     CreateTree(root, root->left, x, pos);
                 }
